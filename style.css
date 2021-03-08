@@ -42,7 +42,7 @@ section {
     background-attachment: fixed; 
 }
 
-#start .profile-img {
+#index.profile-img {
     width: 200px;
     border-radius: 50%;
 }
@@ -52,7 +52,7 @@ footer {
     padding: 50px;
 }
 
-#start h1 {
+#index h1 {
     font-size: 3em;
 }
 
@@ -69,9 +69,9 @@ header a {
     color: #000000;
 }
 
-/* Add everything below here */
 
-#start {
+
+#index {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('field.jpg');
 }
 
