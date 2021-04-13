@@ -1,0 +1,485 @@
+body {
+  margin: 0;
+  
+  font-family: sans-serif;
+  background-color: #1c2e4a;
+  
+  
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  line-height: 50px;
+  
+  color: rgba(0,0,0,87);
+  padding-top: 20px;
+   
+}
+
+nav{
+  flex: 1;
+  text-align:right;
+ 
+  /*float: center;*/
+}
+nav ul li{
+  
+  list-style: none;
+  display:  inline-block;
+  margin-right:50px;
+  
+}
+nav ul li a{
+  text-decoration:none;
+  color: white;
+  font-size: 16px;
+  
+}
+.msg-container  {
+  text-decoration: none;
+color: black;
+text-align: right;
+width: 350%;
+
+}
+.navbar{
+  width: 350%;
+  display:flex;
+  align-items: center;
+  position: fixed;
+  text-align:center;
+  float: none;
+}
+.far{
+  color: white;
+  font-size: 25px;
+  
+
+}
+.fas{
+  color: white;
+  font-size: 25px;
+  
+}
+.fab{
+  color: white;
+  font-size: 31px;
+  
+}
+/* Create four equal columns that floats next to each other */
+.column7 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row7:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+i {
+  background-color: blue;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+i.fa1 {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+
+}
+i {
+  background-color: rgb(35, 70, 182);
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+i2{
+  background-color: rgb(71, 3, 71);
+  border-radius: 80%;
+  border: 1px solid rgb(71, 3, 71);
+  padding: 20px;
+}
+
+
+
+.left {
+  float: left;
+  width: 8%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:80 px;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+  padding-top: 100px;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+  padding-top: 260px;
+}
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  padding-top: 100px;
+  margin: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}  
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+* {
+  box-sizing: border-box;
+}
+#profile-img {
+  width:120px;
+  border-radius:190px;
+  cursor: pointer;
+}
+main{
+  padding-top: 150px;
+   color: white;
+}
+#slideshow {
+overflow: hidden;
+height: 610px;
+width: 1000px;
+/*margin: 0 auto;*/
+}
+.v-wrap {
+float: left;
+height: 610px;
+width: 1000px;
+
+}
+
+/* Add animation to the slides */
+.vertical-wrapper {
+
+/* Calculate the total width on the
+basis of number of slides */
+width: calc(1000px * 4);
+  
+/* Specify the animation with the
+duration and speed */
+animation: v-wrap 10s ease infinite;
+}
+
+/* Set the background color
+of each of the slides */
+.v-wrap:nth-child(1) {
+text-align: center;
+
+}
+
+.v-wrap:nth-child(2) {
+text-align: center;
+}
+
+.v-wrap:nth-child(3) {
+text-align: center;
+}
+
+.v-wrap:nth-child(4) {
+text-align: center;
+}
+
+/* Define the animation 
+for the slideshow */
+@keyframes v-wrap {
+
+/* Calculate the margin-left for 
+each of the slides */
+20% {
+  margin-left: 0px;
+}
+
+40% {
+  margin-left: calc(-1000px * 1);
+}
+
+60% {
+  margin-left: calc(-1000px * 2);
+}
+
+80% {
+  margin-left: calc(-1000px * 3);
+}
+}
+.container {
+width:1350px;
+height:250 px;
+background-color:white;
+padding-top:120px;
+padding-left:15px;
+padding-right:15px;
+}
+#st-box {
+float:left;
+width:425px;
+height:400px;
+background-color:white;
+border:solid #F8FAFD;
+margin: auto;
+
+}
+#nd-box {
+float:left;
+width:425px;
+height:400px;
+background-color:white; 
+border:solid #F8FAFD;
+margin: auto;
+
+margin-left:20px;
+}
+#rd-box {
+float:right;
+width:425px;
+height:400px;
+background-color:white;
+border:solid #F8FAFD;
+margin: auto;
+}
+.column3 {
+float: left;
+width: 16.5%;
+padding: 10px;
+height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row3:after {
+content: "";
+display: table;
+clear: both;
+}
+.column4 {
+float: left;
+width: 25%;
+padding: 10px;
+height: 550px; /* Should be removed. Only for demonstration */
+}
+.column8 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  padding-top: 160px;
+  height: 550px; /* Should be removed. Only for demonstration */
+  }
+
+/* Clear floats after the columns */
+.row4:after {
+content: "";
+display: table;
+clear: both;
+}
+/* Clear floats after the columns */
+.row8:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding-top: 40px;
+  }
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 2em;
+  
+  width: 70%;
+  
+  
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+.button{
+  margin-top: 30px;
+  margin-left: 440px;
+  padding-top: 320px;
+  border-radius: 15px
+  
+}
+.button3{
+  margin-top: 30px;
+ 
+  padding-top: 320px;
+  border-radius: 15px
+  
+}
+.btn{
+  
+  padding: 25px 45px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 30px
+}
+.btn3{
+  
+  padding: 25px 45px;
+  color: white;
+  text-decoration: none;
+ margin-left: 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-radius: 30px
+}
+
+.btn-one{
+  background-color: blue;
+  float: center;
+  border: 1px solid blue;
+
+  
+}
+.btn-three{
+  background-color: blue;
+ float: left;
+  border: 1px solid blue;
+  margin-left: 60px;
+}
+.btn-two{
+  background-color: white;
+  color: blue;
+  border: 1px solid white;
+}
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+/* Create two equal columns that floats next to each other */
+.column5 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  border-radius: 70px;
+  border-collapse: collapse;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row5:after {
+  content: "";
+  display: table;
+  
+  clear: both;
+  /*padding-top: 40px;*/
+}
+/* Create two equal columns that floats next to each other */
+.column6 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 900px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row6:after {
+  content: "";
+  display: table;
+  clear: both;
+  /*padding-top: 40px;*/
+}
+.first-txt {
+  position: absolute;
+  top: 17px;
+  left: 100px;
+}
+
+.second-txt {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+}
+.counter {
+  display: table-cell;
+  margin:1.5%;
+  font-size:50px;
+  background-color: #FF6F6F;
+  width:200px;
+  border-radius: 50%;
+  height:200px;
+  vertical-align: middle;
+}
+.loader {
+  color: #fff;
+  
+  font-family: Consolas, Menlo, Monaco, monospace;
+  font-weight: bold;
+  font-size: 8vh;
+  
+  opacity: 0.7;
+
+}
