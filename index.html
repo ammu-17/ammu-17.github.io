@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20304f774a.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Mayon Technology Solution </title>
+
+  </head>
+  <style>
+      .wrapper{
+	width: 1px;
+	margin: 0 auto;
+}
+header{
+	height: 100px;
+	background: #23395d;
+	width: 100%;
+	z-index: 12;
+	position: fixed;
+}
+.profile-img{
+	width: 10%;
+	float: left;
+	line-height: 100px;
+}
+.profile-img a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #fff;
+	letter-spacing: 3px;
+}
+nav{
+	float: right;
+	line-height: 100px;
+}
+nav a{
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+	letter-spacing: 3px;
+	font-size: 16px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+  .caption{
+   font-size: 22px;
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.container {
+width:1350px;
+height:100 px;
+ background-color: #1c2e4a;
+padding-top:280px;
+padding-left:15px;
+padding-right:15px;
+}
+.TR {
+   position: absolute;
+   top: 8px;
+   right: 54px;
+}
+
+#st-box {
+float:left;
+width:300px;
+height:400px;
+background-color: #1c2e4a;
+border:solid  #1c2e4a;
+margin: auto;
+border-radius: 25px;
+/*display: inline-block;*/
+position:relative;
+text-align: center;
+visibility: visible;
+}
+#st-box:hover img{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+#st-box:hover.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 0, 0, 0.2);
+	overflow: auto;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#nd-box:hover img{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+#nd-box:hover.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 0, 0, 0.2);
+	overflow: auto;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#nd-box:hover.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 0, 0, 0.2);
+	overflow: auto;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#rd-box:hover img{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+#rd-box:hover.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 0, 0, 0.2);
+	overflow: auto;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#rd-box:hover.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 0, 0, 0.2);
+	overflow: auto;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#th-box:hover img{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+#th-box:hover.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 0, 0, 0.2);
+	overflow: auto;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#th-box:hover.overlay{
+  position:absolute;
+  top:0;
+  left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 0, 0, 0.2);
+	overflow: auto;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.overlay {
+  display: none;
+  visibility: hidden;
+}
+#nd-box {
+float:left;
+width:320px;
+height:400px;
+background-color: #1c2e4a; 
+border:solid  #1c2e4a;
+margin: auto;
+
+margin-left:20px;
+border-radius: 25px;
+position:relative;
+text-align: center;
+/*display: inline-block;*/
+position:relative;
+text-align: center;
+visibility: visible;
+}
+#rd-box {
+  
+float:left;
+width:320px;
+height:400px;
+background-color: #1c2e4a;
+border:solid  #1c2e4a;
+margin:auto;
+margin-left:20px;
+border-radius: 25px;
+position:relative;
+text-align: center;
+visibility: visible;
+}
+
+
+#th-box {
+float:right;
+width:300px;
+height:400px;
+background-color: #1c2e4a;
+border:solid  #1c2e4a;
+margin: auto;
+border-radius: 25px;
+position:relative;
+text-align: center;
+visibility: visible;
+}
+  </style>
+
+    <body>
+      <script src="script.js"></script>
+      <div class="box-area">
+    <header>
+        <div class="wrapper">
+           
+            </div>
+            <nav>
+                <img src="mayon.jpg" class="profile-img">
+                    
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="SERVICES.html">SERVICES</a>
+                    <a href="PORTFOLIO.html">PORTFOLIO</a>
+                    <a href="BLOGS.html">BLOGS</a>
+                    <a href="CAREERS.html">CAREERS</a>
+                    <a href="CONTACT.html">CONTACT</a>
+                
+            </nav>
+            
+            </div>
+        </header>
+        <main>
+            <article>
+              
+              <div class="v-wrap"><div class="v-move">
+                <div class="slide" style="color: white;">
+                  <h3 style="font-size: 35px; text-align: center;  padding-top: 100px;">Real  Life  Crazy  Experiments  are  Deadly  and  Very  Risky</h3>
+                  <p style="text-align: center;">
+                  Virtual Reality provides a safe environment to make mistakes and learn and it’s cost effective way of training an agile way.
+                  </p>
+                </div>
+                <div class="slide" style="color: white;">
+                  <h3 style="font-size: 35px; text-align: center;padding-top: 80px;">Tired of seeing 3D Buildings and wondering how it will look like in Real Life ?</h3>
+                  <p style="text-align: center;">
+                  Enter the dimension of Virtual Reality where Architects will be able to visualize identify and resolve  
+            before an expensive construction mistake happens. Augmented helps </br></br>for better visualization from our hand-held device anywhere
+                  </p>
+                </div>
+                <div class="slide" style="color: white;">
+                  <h3 style="font-size: 35px; text-align: center;padding-top: 80px;">Tired of creating campaigns that don't give engagement ?</h3>
+                  <p style="text-align: center;">
+                  Advertisers will be able to create better campaigns which will increase audience reach as well as engagement Watch VideoTalk us
+                  </p>
+                </div>
+                
+                </div></div>
+    <div class="button">
+      <a href="" class="btn btn-one"><b>Watch Video</b></a>
+      <a href="" class="btn btn-two"><b>Talk to Us</b> </a>
+    </div>
+    <div class="container">
+      <div id="st-box" ng-repeat="a in modules">
+        <md-card>
+        <img src="sow.jpg" width="240px" height="330px" style="border-radius: 15px;  margin-left: 80px;">
+        <div class="caption TR" class="overlay">Software</br>Solution
+        </md-card></div>
+      </div>
+        
+      <div id="nd-box" ng-repeat="a in modules">
+        <img src="lapp.jpg" width="240px" height="330px" style="border-radius: 15px;margin-left: 70px;">
+        <div class="caption TR" class="overlay">UI/UX Design</br>Service</div>
+      </div>
+        
+      <div id="rd-box">
+        <img src="phonee.jpg" width="240px" height="330px" style="border-radius: 15px;">
+        <div class="caption TR" class="overlay">Mobile/ web </br>Application</br>Devlopment</div>
+      </div>
+      <div id="th-box">
+        <img src="design.jpg" width="240px" height="330px" style="border-radius: 15px; margin-right: 100px;">
+        <div class="caption TR" class="overlay">Design &</br> Branding</br>Solution</div>
+      </div>
+  </div>
+  <div class="event" style="padding-top: 40px;">
+  <div class="row5"style="padding-top: 40px;" >
+    <div class="column5" style="background-color:#1c2e4a;">
+      <P style="font-size: 40px; padding-top: 140px; margin-left: 50px;">Technology Skill Set</P>
+      <p style="text-align: left;font-size: 20px; font-family: 'Times New Roman', Times, serif; margin-left: 50px;">Engine: Unity
+      </br>Language: C#, JavaScript, Visual Scripting using Playmaker or Bolt
+    </br>Augmented Reality: Vuforia, ARKit, ARCore, ARFoundation, Wikitude
+        Virtual Reality: HTC Vive, Gear VR, Oculus Rift, Oculus Go, Quest, 
+        Google Cardboard Add Ons: In house 2D & 3D Artist Teams</p>
+    </div>
+    <div class="column5" style="background-color:#1c2e4a;">
+      <div class="parent">
+        <img class="image1" src="liii.jpg" >
+        <img class="image2" src="glit2.jpg">
+        </div>
+    </div>
+  </div>
+  </div>
+  <div class="button3">
+    <a href="" class="btn btn-three"><b>learn more</b></a>
+    </div>
+  
+      
+  <div class="event" style="padding-top: 40px;">
+  <div class="row6"style="padding-top: 40px;" >
+    <div class="column5" style="background-color:#1c2e4a;">
+      <div class="parent">
+        <img class="image3" src="liii.jpg" >
+        <img class="image4" src="diaa.jpg">
+        </div>
+    </div>
+    <div class="column6" style="background-color:#1c2e4a;">
+     <p style="font-size: 38px; text-align: centers;padding-top: 180px;"><b>Multi - Platform compatibility</b></p>
+    <p style="font-size: 20px;  padding-top: 10px;">We make AR and VR solutions that are compatible with a wide range of devices and also platforms to where it can be published and used.</p>
+    <i2 class="fas fa-robot"></i2>&emsp; &emsp;<i2 class="fab fa-apple"></i2> &emsp; &emsp;<i2 class="fas fa-th-large"></i2>&emsp;&emsp;<i2 class="fas fa-minus-circle"></i2>&emsp;&emsp;<i4><img src="https://img.icons8.com/ios/50/ffffff/webgl.png" height="25px" width="25px" align="center" /></i4>
+  </div>
+  </div>
+  <div class="column7" style="background-color:#1c2e4a;">
+    <div class="loader">
+      <span class="count" style="padding-top: 100px; text-align: center; margin-left: 160px;">24</span>+
+    </br><i1 class="fas fa-minus" style="margin-left: 160px; color: blue; size: 20px;"></i1>
+     <p style="text-align: center; font-size: 20px;">VR Devices supported</p>
+     </div>
+    </div>
+  <div class="column7" style="background-color:#1c2e4a;">
+    <div class="loader">
+    <span class="count" style="padding-top: 100px; text-align: center; margin-left: 160px;">6</span>
+
+</br><i1 class="fas fa-minus" style="margin-left: 160px; color: blue; size: 20px;"></i1>
+   <p style="text-align: center; font-size: 20px;">Global Centres</p>
+  </div>
+  </div>
+    <div class="column7" style="background-color:#1c2e4a;">
+      <div class="loader">
+      <span class="count" style="padding-top: 100px; text-align: center; margin-left: 160px;">43</span>+
+    </br><i1 class="fas fa-minus" style="margin-left: 160px; color: blue; size: 20px;"></i1>
+     <p style="text-align: center; font-size: 20px;">AR and VR Applications</p>
+     </div>
+    </div>
+    <div class="column7" style="background-color:#1c2e4a;">
+      <div class="loader">
+        <span class="count" style="padding-top: 100px; text-align: center; margin-left: 160px;">4</span>M+
+      </br><i1 class="fas fa-minus" style="margin-left: 160px; color: blue; size: 20px;"></i1>
+      <p style="text-align: center; font-size: 20px;">Combined End App Users of our clients</p>
+    </div>
+    </div>
+  </div>
+  <div class="event">
+        
+    <p style="text-align: center;font-size: 20px;color: black;"> <b></b></p>
+    <div class="row4">
+
+        <div class="column4" style="background-color:rgb(31, 32, 33);">
+        <img src="mayon4.jpg" height="160px" width="260">
+        <p style="font-size: 21px; font-family: 'Times New Roman', Times, serif;">Mayon Technology Solutions OÜ is an Information Technology Solutions Provider catering across a wide range of services such as AR/VR Solutions Development, UI and UX Design, Software Solutions, Design & Branding, Mobile and Web App Development services.</p>
+        </div>
+        <div class="column4" style="background-color:rgb(31, 32, 33);">
+          <h3 style="padding-top: 50PX;">&emsp;&emsp;Contact Us</h3>
+          <P style="font-size: 16PX;padding-top: 15PX;"><b>&emsp;&emsp;Europe</b></P>
+          <h4>&emsp;&emsp;OU Sepapaja 6, Tallinn 15551, &emsp;&emsp;&emsp;&emsp;Estonia Tallinn</h4>
+           <h5>&emsp;&emsp;&emsp;Phone: +372-8803274</h5>
+           <P style="font-size: 16PX;padding-top: 15PX;"><b>&emsp;&emsp;Australia</b></P>
+           <h4>&emsp;&emsp;48 Lumeah Road, Caulfield North, &emsp;&emsp;VIC 3161,</h4>
+           <h5>&emsp;&emsp;&emsp;Australia</h5>
+        </div>
+       
+            <div class="column4" style="background-color:rgb(31, 32, 33);">
+                <h4 style="padding-top: 100PX;">&emsp;&emsp;&emsp;Serbia</h4>
+                <P style="font-size: 15PX;padding-top: 5PX;"><b>&emsp;&emsp;&emsp;Cara Dušana 137, Inđija, Serbia</b></P>
+                <p>&emsp;&emsp;&emsp;Email:contact@getmayon.com</p>
+            </div>
+            <div class="column4" style="background-color:rgb(31, 32, 33);">
+                
+                <h3 style="text-align: center;padding-top: 50PX;">Quick links</h3>
+               <h4 style="text-align: center; padding-top: 20px;">About Us</h4>
+               <h4 style="text-align: center;">Our Service</h4>
+               <h4 style="text-align: center;">Our news</h4>
+               <h4 style="text-align: center;">Careers</h4>
+               </div>
+       <script src="script.js"></script>
+                    </article> 
+        </main>
+        <script src="script.js"></script>
+    </body>
+    </html>
+	
+	
