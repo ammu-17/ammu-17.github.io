@@ -1,0 +1,1012 @@
+body 
+{padding-top: 70px;
+font-family: sans-serif;
+}
+container{
+	width: 100%;
+}
+header {
+    background-color: #34262B;
+    background: url('https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80 1050w') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+  .min.title{
+	color: #550240; font-weight: 900; font-size: 23px;
+  }
+  nav.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav.navbar-default .navbar-brand:focus, nav.navbar-default .navbar-brand:hover {
+    color: #fff !important;
+    background-color: transparent;
+}
+
+nav.navbar-default .navbar-nav>li>a{
+  color:#fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+
+
+.navbar{
+    background-color: #000000;
+	width: 100%;
+    
+}
+
+.logo-brand{
+    width: 50px;
+    margin-left: 20px;
+}
+
+
+  header h4 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .red {
+    color: #c1292e;
+    font-weight: bold;
+  }
+  .button{
+	  background-color: rgb(24, 24, 24);
+	  color: #DDD;
+	  font-size: 20px;
+	  border-radius: 15px;
+  }
+  .lead3{
+	  margin-top: 20%;
+  }
+  .lead2{
+	  margin-top: 40%;
+	  font-size: 35px;
+	  color: #000;
+	  font-weight: 900;
+  }
+  .lead1{
+	  margin-top: 20px;
+	  font-size: 25px;
+	  color: #111;
+  }
+  .more-space {
+    margin-bottom: 20%;
+  }
+  .break2 {
+    background: url(https://images.unsplash.com/photo-1615933530038-314d91bb1039?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) center center fixed;
+  
+    background-size: cover;
+  }
+  
+  .break2 h3 {
+    color: #fff;
+    font-size: 70px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  
+  .lead7{
+	  font-size: 25px;
+  }
+  header h1 {
+    color: #34262B;
+    font-size: 150px;
+  }
+  .our-team .team-row {
+	margin-left: -40px;
+	margin-right: -40px;
+  }
+  
+  .our-team .team-wrap {
+	padding: 0 40px;
+  }
+  
+  .our-team .container-fluid {
+	padding: 0 50px;
+  }
+  
+  .team-img img {
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 25px;
+  }
+  
+  .team-member,
+  .team-img {
+	position: relative;
+	overflow: hidden;
+	margin-top: 5%;
+  }
+  
+  .team-title {
+	margin: 30px 0 7px;
+	font-size: 23px;
+	color: #000;
+	font-weight: 700;
+  }
+  
+  .overlay {
+	background-color: rgba(20,20,20,.7);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	border-radius: 25px;
+	height: 100%;
+	opacity: 0;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  .team-details {
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	padding: 5%;
+	overflow: hidden;
+	width: 100%;
+	z-index: 2;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+  }
+  
+  .team-details p {
+	color: #fff;
+  }
+  
+  .team-img:hover .team-details {
+	opacity: 1;
+	margin-top: -80px;
+  }
+  
+  .team-img:hover .overlay {
+	opacity: 1;
+  }
+  
+  .socials a {
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+	background-color: transparent;
+  }
+  
+  .socials i {
+	line-height: 37px;
+	color: #616161;
+	font-size: 14px;
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+	text-align: center;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+  }
+  
+  .team-details .socials i {
+	  color: #fff;
+  }
+  
+  .socials a:hover i {
+	color: #fff;
+	background-color: #355c7d;
+  }
+  .lead4{
+	  margin-top: 20%;
+	  font-size: 30px;
+	  font-weight: 600;
+	  color: #000;
+  }
+  .lead5{
+	  margin-top: 2%;
+	  font-size: 23px;
+  }
+  .lead9{
+	  color: #fff;
+  }
+  
+  
+
+/**********Start Overriding Bootstrap********/
+
+/*Main Navbar*/
+.navbar {min-height: 70px}
+.navbar{
+    background-color: rgb(7, 7, 7);
+}
+.lead10{
+	font-size: 30px;
+	font-weight: 800;
+	color: #000;
+	margin-top: 23%;
+}
+.lead11{
+	font-size: 19px;
+}
+.h3{
+	margin-top: 40%;
+	height: 340px;
+	width: 430px;
+}
+
+.lead12{
+	margin-top: 70px;
+}
+/*Start Section About*/
+.about {padding-top: 60px; padding-bottom: 60px}
+.about .about-paragraph1 {color: #888; font-size: 25px; margin-top: 15px}
+.about .about-paragraph2 {color: #888; font-size: 17px; margin-top: 15px}
+.about h1 {font-weight: bold}
+.about h2 {font-weight: bold}
+.about h1 span {color: #E41B17}
+.about h2 span {color: #E41B17}
+/*End Section About*/
+/*Start Section Features*/
+.features {overflow: hidden; background-color: #EEE; padding-top: 50px; padding-bottom: 50px}
+.features .feat {margin-bottom: 30px}
+.features .feat p {line-height: 2em}
+.features .feat span.glyphicon {font-size: 20px; margin-bottom: 10px; color: rgb(3, 3, 3)}
+/*End Section Features*/
+/*Start Section Testimonials*/
+.testimonials {padding-top: 50px; padding-bottom: 50px}
+.testimonials .lead {line-height: 2em; margin-bottom: 10px}
+.testimonials span {font-size: 18px; font-weight: bold; color: #000000}
+.testimonials .carousel-indicators
+{
+	position: static;
+	width: 100%;
+	margin-left: auto;
+	padding-top: 20px
+}
+.testimonials .carousel-indicators li
+{
+	text-indent: 0;
+	width: 80px;
+	height: 80px;
+	opacity: 0.5;
+	border: 2px solid #FFF;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 5px;
+}
+.testimonials .carousel-indicators li.active
+{
+	width: 80px;
+	height: 80px;
+	opacity: 1;
+	background: none;
+	border: 2px solid #000000
+}
+
+.testimonials .carousel-indicators li img {max-width: 100%}
+/*End Section Testimonials*/
+/*Start Section Price Table*/
+.price-table 
+{
+	overflow: hidden; 
+	background: #EEE; 
+	padding-top: 40px; 
+	padding-bottom: 40px
+}
+.price-table .price-box
+{
+	background: #FFF;
+	padding: 10px;
+	border: 1px solid #DDD;
+	margin-bottom: 15px
+}
+.lead6{
+	font-size: 23px;
+}
+.h1{
+	font-size: 33px;
+	font-weight: 600;
+	color: #000;
+}
+.price-table .price-box h2 {margin: 5px 0 15px}
+.price-table .price-box:hover p
+{
+	-webkit-transform: scale(1.1,1.1) rotate(360deg);
+	-moz-transform: scale(1.1,1.1) rotate(360deg);
+	-o-transform: scale(1.1,1.1) rotate(360deg);
+	transform: scale(1.1,1.1) rotate(360deg);
+	border: 2px solid #DFDFDF
+}
+.price-table .price-box p
+{
+	font-size: 35px;
+	font-weight: bold;
+	color: #666;
+	width: 100px;
+	height: 100px;
+	background: #F3F3F3;
+	border-radius: 50%;
+	line-height: 100px;
+	border: 2px solid #FFF;
+}
+.price-table .price-box ul {line-height: 250%; font-size: 15px}
+.price-table .price-box a {margin-bottom: 5px}
+/*End Section Price Table*/
+/*Start Section Our Team*/
+.our-team
+{
+	
+	min-height: 600px
+}
+.img-fluid{
+	width: 50px;
+	margin-right: 40px;
+	border-radius: 15px;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: 70px;
+	color: #000000;
+}
+.pro-title{
+font-size: 28px;
+font-weight: 600;
+}
+.team
+{
+	background: rgba(2, 2, 2, 0.75);
+	color: #FFF;
+	min-height: 600px;
+	padding-top: 40px;
+	padding-bottom: 40px
+}
+.our-team .person {margin-bottom: 40px}
+/*End Section Our Team*/
+/*Start Section Subscribe*/
+.subscribe {padding-top: 40px; padding-bottom: 70px; background: #EEE}
+.subscribe .h1
+{
+	font-weight: bold;
+	color: #888;
+	letter-spacing: 2px;
+	margin-bottom: 20px
+}
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 12px;
+}
+.footer-box{
+    padding: 20px;
+    margin-top: 40px;
+}
+.footer-box img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #363636, #363636);
+}
+.footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #363636, #363636);
+}
+hr{
+    background-color: #fff;
+}
+.copy-right{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.subscribe h2
+{
+	font-weight: bold;
+	color: #888;
+	letter-spacing: 2px;
+	margin-bottom: 20px
+}
+.subscribe p {margin-bottom: 30px}
+.subscribe .form-control {border-radius: 0; margin-right: -5px; width: 300px}
+.subscribe button {border-radius: 0}
+/*End Section Subscribe*/
+/*Start Section Stats*/
+.statistics
+{
+	background: url('http://www.lgcomputers.it/lgcomputers/images/page-background.jpg') no-repeat center center fixed;
+	min-height: 300px
+}
+.statistics .data
+{
+	background-color: rgba(3, 3, 3, 0.7);
+	color: #B6B5B5;
+	min-height: 300px;
+	padding-top: 40px;
+	padding-bottom: 70px
+}
+.statistics .stats {margin-bottom: 30px}
+.statistics .stats:hover {color: #FFF}
+.statistics p {font-size: 60px; font-weight: 600px; margin-bottom: 0}
+.statistics span {font-size: 16px}
+/*End Section Stats*/
+/*Start Section Our Skills*/
+.our-skills {padding-top: 40px; padding-bottom: 70px}
+.our-skills h3 {font-weight: bold; margin-top: 0}
+.our-skills .progress {height: 36px}
+.our-skills .progress-bar
+{
+	line-height: 36px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 10px
+}
+/*End Section Our Skills*/
+/*Start Section Contact Us*/
+.contact-us
+{
+	overflow:hidden;
+	background: url('https://insurancenetusa.com/wp-content/uploads/2015/10/retirement-insurance-slide.jpg') no-repeat center center fixed;
+	min-height: 300px
+}
+.contact-us .fields
+{
+	background-color: rgba(3, 3, 3, 0.8);
+	color: #DDD;
+	min-height: 300px;
+	padding-top: 40px;
+	padding-bottom: 40px
+}
+.contact-us p {margin-bottom: 40px}
+.contact-us textarea {height: 108px}
+.contact-us input[type="text"],
+.contact-us textarea
+{
+	background: rgba(80, 70, 70, 0.5);
+	color: #FFF;
+	border: none
+}
+/*End Section Contact Us*/
+/*Start Section Our Clients*/
+.our-clients {background: #EEE; padding-top: 20px; padding-bottom: 20px}
+.our-clients img
+{
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.our-clients img:hover {opacity: 1}
+/*End Section Our Clients*/
+/*Start Section Footer*/
+.footer {background: rgb(5, 5, 5); color: #AAA; padding-top: 10px}
+.footer a {color: #AAA}
+.footer a:hover {color: #FFF}
+.footer h3 {color: #E41B17; letter-spacing: 1px; margin: 30px 0 20px}
+.footer .three-columns {overflow: hidden}
+.footer .three-columns li {width: 33.3333%; float: left; padding: 5px 0}
+.footer .social-list {overflow: hidden; margin: 20px 0 10px}
+.footer .social-list li
+{
+	float: left;
+	margin-right: 3px;
+	opacity: 0.7;
+	filter: alpha(opacity=70%);
+}
+.footer .social-list li:hover {opacity: 1}
+.footer .img-thumbnail {background: rgba(0, 0, 0, 0.2); border: 1px solid #444; margin-bottom: 5px}
+.footer .copyright
+{
+	background:#333;
+	color: #AAA;
+	padding: 5px 0;
+	margin-top:30px;
+	font-size:17px
+}
+.footer .copyright span {color: #E41B17}
+/*End Section Footer*/
+/*Start Our Grouping*/
+.our-team, .statistices, .contact-us
+{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.features .h1, 
+.features h2,
+.testimonials .h1,
+.testimonials h2,
+.price-table .h1,
+.price-table h2,
+.our-team .team .h1,
+.our-team .team h2,
+.statistics .h1,
+.statistics h2,
+.our-skills .h1,
+.our-skills h2{margin-bottom: 50px}
+
+.testimonials .large .carousel-indicators li,
+.price-table .price-box p,
+.statistics .stats,
+.our-clients img,
+.footer .social-list li
+{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+/*End Our Grouping*/
+
+@media all and (max-width: 580px) {
+    /*For mobile*/
+    body{
+      text-align: center;
+      width: 100%;
+  }
+
+  .navbar{
+	  width: 100%;
+  }
+  .lead10{
+	font-size: 32px;
+	font-weight: 800;
+	color: #000;
+	margin-top: 23%;
+}
+.lead11{
+	font-size: 22px;
+	text-align: justify;
+}
+.hidden-xs{
+	font-size: 48px;
+}
+.visible-xs{
+	font-size: 32px;
+	color: #000;
+}
+.lead{
+	font-size: 25px;
+	
+}
+.promin-button{
+	font-size: 20px;
+	margin-top: 10%;
+	border-radius: 10px;
+}
+.text-primary{
+	font-size: 36px;
+}
+.center-block{
+	font-size: 80px;
+}
+.lead15{
+	font-size: 26px;
+	line-height: 4.5rem;
+	text-align: justify center;
+}
+.lead17{
+	font-size: 30px;
+	
+}
+.lead27{
+	font-size: 20px;
+	text-align: justify;
+}
+.lead22{
+	font-size: 24px;
+	text-align: justify;
+}
+.lead24{
+	font-size: 23px;
+	text-align: justify;
+}
+.lead25{
+	font-size: 24px;
+	text-align: justify;
+}
+.lead26{
+	font-size: 24px;
+	margin-right: 390px;
+}
+}
+@media all and (max-width: 480px) {
+    /*For mobile*/
+    body{
+      text-align: center;
+      width: 150%;
+  }
+  .navbar-toggle{
+	 
+	  margin-right: 30px;
+	 
+  }
+  
+  .promo-title{
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: 70px;
+	color: #000000;
+}
+.pro-title{
+font-size: 30px;
+font-weight: 700;
+}
+.promax-title{
+	font-size: 32px;
+	font-weight: 600;
+	color: #000;
+}
+.promini-title{
+	font-size: 35px;
+	color: rgba(240, 244, 245, 0.932);
+}
+.red {
+    color: #c1292e;
+    font-weight: 800;
+	font-size: 34px;
+  }
+
+  .lead2{
+	margin-top: 15%;
+	font-size: 45px;
+	color: #000;
+	font-weight: 900;
+}
+.lead1{
+	margin-top: 20px;
+	font-size: 30px;
+	color: #111;
+	text-align: justify;
+}
+
+.button{
+	background-color: rgb(24, 24, 24);
+	color: #DDD;
+	font-size: 26px;
+	border-radius: 15px;
+}
+.promin-button{
+	font-size: 24px;
+	margin-top: 10%;
+	border-radius: 10px;
+}
+.lead10{
+	font-size: 42px;
+	font-weight: 800;
+	color: #000;
+	margin-top: 23%;
+}
+.lead11{
+	font-size: 28px;
+	text-align: justify;
+}
+.min.title{
+	font-size: 38px;
+	color: rgb(116, 2, 97);
+}
+.h1{
+	font-size: 43px;
+	font-weight: 600;
+	color: #000;
+}
+.hidden-xs{
+	font-size: 48px;
+}
+.visible-xs{
+	font-size: 33px;
+	color: #000;
+}
+.lead{
+	font-size: 30px;
+	
+}
+.lead6{
+	font-size: 28px;
+	text-align: justify;
+}
+.lead14{
+	font-size: 32px;
+	color: #000;
+}
+.text-primary{
+	font-size: 55px;
+}
+.center-block{
+	font-size: 60px;
+}
+.lead15{
+	font-size: 30px;
+	line-height: 4.3rem;
+	text-align: justify center;
+}
+.lead20{
+	margin-top: 5%;
+	font-size: 25px;
+}
+.lead4{
+	font-size: 47px;
+}
+.lead5{
+	font-size: 40px;
+}
+.team-title{
+	font-size: 35px;
+}
+.lead16{
+	font-size: 30px;
+}
+.lead17{
+	font-size: 36px;
+	
+}
+.lead18{
+	font-size: 26px;
+	height: 100%;
+}
+.lead27{
+	font-size: 28px;
+	text-align: justify;
+}
+.lead19{
+	font-size: 20px;
+}
+.lead7{
+	font-size: 32px;
+}
+.lead21{
+	font-size: 28px;
+}
+.lead22{
+	font-size: 29px;
+	text-align: justify;
+}
+
+.lead24{
+	font-size: 28px;
+	text-align: justify;
+}
+.lead25{
+	font-size: 29px;
+	text-align: justify;
+}
+.lead26{
+	font-size: 29px;
+	margin-right: 390px;
+}
+.copy-right{
+	font-size: 29px;
+	
+}
+.form-control{
+	font-size: 28px;
+}
+
+}
+
+@media all and (max-width: 380px) {
+    /*For mobile*/
+    body{
+      text-align: center;
+      width: 200%;
+  }
+  .navbar-toggle{
+	 
+	margin-right: 30px;
+	
+}
+
+  .promo-title{
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: 70px;
+	color: #000000;
+}
+.pro-title{
+font-size: 40px;
+font-weight: 700;
+}
+.promax-title{
+	font-size: 38px;
+	font-weight: 600;
+	color: #000;
+}
+.promini-title{
+	font-size: 40px;
+	color: rgba(240, 244, 245, 0.932);
+}
+.red {
+    color: #c1292e;
+    font-weight: 800;
+	font-size: 38px;
+  }
+
+  .lead2{
+	margin-top: 15%;
+	font-size: 60px;
+	color: #000;
+	font-weight: 900;
+}
+.lead1{
+	margin-top: 20px;
+	font-size: 38px;
+	color: #111;
+	text-align: justify;
+}
+
+.button{
+	background-color: rgb(24, 24, 24);
+	color: #DDD;
+	font-size: 26px;
+	border-radius: 15px;
+}
+.promin-button{
+	font-size: 30px;
+	margin-top: 10%;
+	border-radius: 10px;
+}
+.lead10{
+	font-size: 60px;
+	font-weight: 800;
+	color: #000;
+	margin-top: 23%;
+}
+.lead11{
+	font-size: 36px;
+	text-align: justify;
+}
+.min.title{
+	font-size: 38px;
+	color: rgb(116, 2, 97);
+}
+.h1{
+	font-size: 60px;
+	font-weight: 600;
+	color: #000;
+}
+.hidden-xs{
+	font-size: 48px;
+}
+.visible-xs{
+	font-size: 40px;
+	color: #000;
+}
+.lead{
+	font-size: 36px;
+	
+}
+.lead6{
+	font-size: 38px;
+	text-align: justify;
+}
+.lead14{
+	font-size: 34px;
+	color: #000;
+}
+.text-primary{
+	font-size: 55px;
+}
+.center-block{
+	font-size: 80px;
+}
+.lead15{
+	font-size: 32px;
+	line-height: 4.5rem;
+	text-align: justify center;
+}
+.lead20{
+	margin-top: 5%;
+	font-size: 30px;
+}
+.lead4{
+	font-size: 54px;
+}
+.lead5{
+	font-size: 48px;
+}
+.team-title{
+	font-size: 44px;
+}
+.lead16{
+	font-size: 35px;
+}
+.lead17{
+	font-size: 44px;
+	
+}
+.lead18{
+	font-size: 36px;
+	height: 100%;
+}
+.lead19{
+	font-size: 30px;
+}
+.lead7{
+	font-size: 35px;
+}
+.lead21{
+	font-size: 30px;
+}
+.lead22{
+	font-size: 38px;
+	text-align: justify;
+}
+.lead24{
+	font-size: 42px;
+	text-align: justify;
+}
+.lead25{
+	font-size: 38px;
+	text-align: justify;
+}
+.lead23{
+	width: 80px;
+	height: 100px;
+}
+
+.lead26{
+	font-size: 38px;
+	margin-right: 460px;
+}
+.copy-right{
+	font-size: 38px;
+	
+}
+.form-control{
+	font-size: 28px;
+}
+
+}
