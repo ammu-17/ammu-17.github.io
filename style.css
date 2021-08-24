@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: sans-serif;
+  }
+  nav > img{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: block;
+    float: left;
+  }
+  
+  nav{
+    position: absolute;
+    width: 100%;
+   
+  }
+  nav > ul{
+    margin-left: 300px;
+    margin-top: 20px;
+  }
+  
+  nav ul li{
+    display: block;
+    float: left;
+    padding-right: 20px;
+    transition: all 0.5s;
+  }
+  nav ul li:hover{
+    color: gray;
+  }
+  nav ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(65, 64, 64);
+  }
+  #rightmenu ul li{
+  display: block;
+  float: right;
+  }
+  article{
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+  }
+  article h1{
+    padding-top: 100px;
+    font-size: 2.2em;
+    color: rgb(59, 59, 59);
+  }
+  .transbutton{
+    display: block;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 3px solid black;
+    float: left;
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75em;
+  }
+  .transbutton:hover{
+    background-color: black;
+    color: #fff;
+  }
+  .transbutton{
+    transition: all 0.5s;
+  }
+   
+  .button-group .transbutton:last-child{
+    margin-right: 0;
+    
+  }
+  .button-group a{
+   
+    color: #000000;
+    
+  }
+  .button-group{
+    display: block;
+    margin: 0 auto;
+    width: 840px;
+    height: 100px;
+   
+  margin-top: 40px;
+  }
+  .lead3{
+    font-size: 17px;
+    color: #4d4c4c;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .lead4{
+    text-decoration: underline;
+  }
+  #car1{
+    background-image: url("car2.jpg");
+    height: 650px;
+    width: 100%;
+    white-space: nowrap;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  #car3{
+    background-image: url("car3.jpg");
+    height: 650px;
+    white-space: nowrap;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  .black a{
+    color: #fff;
+  }
+  .black{
+    background-color: grey;
+  }
+  .button{
+      margin-top: 80px;
+  
+      padding-top: 320px;
+      border-radius: 25px
+      
+    }
+    .btn{
+      
+      padding: 12px ;
+      
+      color: white;
+      text-decoration: none;
+      margin-right: 5px;
+      font-size: 13px;
+      text-transform: uppercase;
+      border-radius: 30px
+      }
+      .btn-one{
+        background-color: rgb(90, 90, 90);
+        float: center;
+        border: 1px solid rgb(90, 90, 90);
+        color: white;
+        padding: 12px 45px;
+      }
+      .btn-two{
+        background-color: white;
+        color: rgb(22, 22, 22);
+        border: 1px solid white;
+        padding: 12px 45px;
+        }
+        .btn-three{
+          background-color: rgb(90, 90, 90);
+          float: center;
+          border: 1px solid rgb(90, 90, 90);
+          color: white;
+          padding: 12px 60px;
+          border-radius: 25px;
+        }
+        .btn-four{
+          background-color: rgb(243, 241, 241);
+          float: center;
+          border: 1px solid rgb(248, 247, 247);
+          color: rgb(22, 22, 22);
+          padding: 12px 60px;
+          border-radius: 25px;
+        }
+        #car2{
+          background-image: url("car1.jpg");
+          height: 650px;
+          white-space: nowrap;
+          background-position: center; /* Center the image */
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+        }
+        #house1{
+          background-image: url("house1.jpg");
+          height: 650px;
+          white-space: nowrap;
+          background-position: center; /* Center the image */
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+        }
+        #house2{
+          background-image: url("house2.jpg");
+          height: 650px;
+          white-space: nowrap;
+          background-position: center; /* Center the image */
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+        }
+        #footer{
+          background-color: #fff;
+        }
+        .lead2{
+          font-size: 48px;
+          text-align: center;
+          margin-top: 110px;
+        }
+      .lead1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       
+        height: 380px;
+      }
+      .text-center {
+        text-align: center;
+      }
+      
+      button {
+        border: 2px solid #ffffff;
+        border-radius: 35px;
+        background: rgb(22, 22, 22);
+        padding: 12px 45px;
+        margin-top: 30px;
+        color: #ffffff;
+        font-size: 1.25rem;
+        cursor: pointer;
+        transition: all 150ms ease-in-out;
+      }
+      .button :hover {
+          background: darken(rgb(22, 22, 22), 8%);  
+        }
+        @media (max-width: 1080px){
+          nav ul li{
+           visibility: hidden;
+          }
+        }
+        @media (max-width: 480px){
+          .button{
+            margin-top: 80px;
+                    padding-top: 260px;
+            border-radius: 30px
+            
+          }
+          .btn{
+            
+            padding: 12px ;
+             color: white;
+            text-decoration: none;
+            margin-right: 5px;
+            font-size: 13px;
+            text-transform: uppercase;
+            border-radius: 30px
+            }
+        
+          .btn-one{
+            background-color: rgb(90, 90, 90);
+           
+            border: 1px solid rgb(90, 90, 90);
+            color: white;
+            padding: 10px 45px;
+            width: 120px;
+            display: inline-block;
+          }
+          .btn-two{
+            background-color: white;
+            color: rgb(22, 22, 22);
+            border: 1px solid white;
+            padding: 10px 45px ;
+            width: 140px;
+       margin: auto;
+       margin-top: 12px;
+            display: flex;
+            
+            }
+            .btn-three{
+              background-color: rgb(90, 90, 90);
+           
+              border: 1px solid rgb(90, 90, 90);
+              color: white;
+              padding: 10px 45px;
+              width: 120px;
+              display: inline-block;
+            }
+            .btn-four{
+              background-color: white;
+              color: rgb(22, 22, 22);
+              border: 1px solid white;
+              padding: 10px 45px ;
+              width: 140px;
+         margin: auto;
+         margin-top: 12px;
+              display: flex;
+            }
+            #car1{
+              background-image: url("car2.jpg");
+              height: 650px;
+              width: 110%;
+              white-space: nowrap;
+              background-position: center; /* Center the image */
+              background-repeat: no-repeat; /* Do not repeat the image */
+              background-size: cover; /* Resize the background image to cover the entire container */
+            }
+            #car3{
+              background-image: url("car4.jpg");
+              height: 650px;
+              width: 110%;
+              white-space: nowrap;
+              background-position: center; /* Center the image */
+              background-repeat: no-repeat; /* Do not repeat the image */
+              background-size: cover; /* Resize the background image to cover the entire container */
+            }
+            #car2{
+              background-image: url("car5.jpg");
+              height: 650px;
+         width: 110%;
+              white-space: nowrap;
+              background-attachment: fixed;
+              background-position: center; /* Center the image */
+              background-repeat: no-repeat; /* Do not repeat the image */
+              background-size: cover; /* Resize the background image to cover the entire container */
+            }
+            #house1{
+              background-image: url("house1.jpg");
+              height: 650px;
+              width: 110%;
+              white-space: nowrap;
+              background-position: center; /* Center the image */
+              background-repeat: no-repeat; /* Do not repeat the image */
+              background-size: cover; /* Resize the background image to cover the entire container */
+            }
+            #house2{
+              background-image: url("house2.jpg");
+              height: 650px;
+              width: 110%;
+              white-space: nowrap;
+              background-position: center; /* Center the image */
+              background-repeat: no-repeat; /* Do not repeat the image */
+              background-size: cover; /* Resize the background image to cover the entire container */
+            }
+            button {
+              border: 2px solid #ffffff;
+              border-radius: 35px;
+              background: rgb(22, 22, 22);
+              padding: 12px 45px;
+              margin-top: 30px;
+              color: #ffffff;
+              font-size: 1.25rem;
+              cursor: pointer;
+              transition: all 150ms ease-in-out;
+            }
+        }
+        @media (max-width: 380px){
+          #car1{
+            background-image: url("car2.jpg");
+            height: 650px;
+            width: 119%;
+            white-space: nowrap;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+          }
+          #car3{
+            background-image: url("car4.jpg");
+            height: 650px;
+            width: 119%;
+            white-space: nowrap;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+          }
+          #car2{
+            background-image: url("car5.jpg");
+            height: 650px;
+            width: 119%;
+            white-space: nowrap;
+            background-attachment: fixed;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+          }
+          #house1{
+            background-image: url("house1.jpg");
+            height: 650px;
+            width: 119%;
+            white-space: nowrap;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+          }
+          #house2{
+            background-image: url("house2.jpg");
+            height: 650px;
+            width: 119%;
+            white-space: nowrap;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+          }
+          .lead2{
+            font-size: 48px;
+            text-align: center;
+            margin-top: 90px;
+            width: 119%;
+             
+          }
+        .lead1{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+         
+          height: 380px;
+        }
+        #footer{
+          background-color: #fff;
+          width: 119%;
+        }
+        button {
+          border: 2px solid #ffffff;
+          border-radius: 35px;
+          background: rgb(22, 22, 22);
+          padding: 12px 45px;
+          margin-top: 30px;
+          color: #ffffff;
+          font-size: 1.25rem;
+          cursor: pointer;
+          transition: all 150ms ease-in-out;
+          display: inline-block;
+        }
+        }
