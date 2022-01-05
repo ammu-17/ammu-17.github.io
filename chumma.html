@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20304f774a.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <title>
+    Responsive Form
+  </title>
+  </head>
+  
+  <body>
+    <div class="s-layout">
+        <!-- Sidebar -->
+        <div class="s-layout__sidebar">
+          <a class="s-sidebar__trigger" href="#0">
+             <i class="fa fa-bars"></i>
+          </a>
+        
+          <nav class="s-sidebar__nav">
+             <ul class="lead6">
+                <li>
+                   <a class="s-sidebar__nav-link" href="index.html">
+                     <em>Home</em>
+                   </a>
+                </li>
+                <li>
+                   <a class="s-sidebar__nav-link" href="mentor.html">
+                   <em>My Profile</em>
+                   </a>
+                </li>
+                <li>
+                   <a class="s-sidebar__nav-link" href="incudoc.html">
+                     <em>Camera</em>
+                   </a>
+                </li>
+             </ul>
+          </nav>
+        </div>
+        
+        <!-- Content -->
+        <main class="s-layout__content">
+            <div class="container">
+                <div class="col-lg-12 col-md-12">
+                  <div class="page-header">
+                   
+                    <!-- Edit Application Name Modal -->
+                    <div class="modal fade" id="editAppName" tabindex="-1" role="dialog" aria-labelledby="editAppName">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Edit Application Name</h4>
+                          </div>
+                          
+                          <div class="modal-body">
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Application Name</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Brother's death">
+                            </div>
+                          </div>
+                          
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                            <a href="vcp-application.html" role="button" class="btn btn-success btn-large">Edit</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div> <!-- / Edit Application Name Modal -->
+                  </div> <!-- / Page Header -->
+                </div>
+              
+              
+                <div class="row">
+                  <div class="col-md-6">
+                    <form>
+                      <div class="row div1">
+                          <h4>Evaluate the following<span class="lead">All fields are mandatory</span></h4>
+                        <div class="col-lg-12 col-xs-12 col-sm-12">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Idea Validation</label>
+                            <div class="slidecontainer">
+                              <input type="range" min="1" max="100" value="50">
+                            </div>
+                          </div>
+                        </div>
+                        
+              
+                        <div class="col-lg-offset-0 col-lg-12 col-xs-12 col-sm-12">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Stackholder approach</label>
+                            <div class="slidecontainer">
+                              <input type="range" min="1" max="100" value="50">
+                            </div>
+                          </div>
+                        </div>
+              
+                        <!-- <div class="col-lg-offset-0 col-lg-3 col-xs-12 col-sm-12">
+                          <div class="form-group">
+                            <label for="Gender" class="select">Gender</label>
+                            <select class="form-control">
+                                <option>Male</option>
+                                <option>Female</option> 
+                              </select>
+                          </div>
+                        </div> -->
+                       
+                        <div class="col-lg-offset-0 col-lg-12 col-xs-12 col-sm-12">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Resources Approach</label>
+                            <div class="slidecontainer">
+                              <input type="range" min="1" max="100" value="50">
+                            </div>
+                          </div>
+                        </div>
+              
+                        <div class="col-lg-offset-0 col-lg--12 col-xs-12 col-sm--12">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Market analysis</label>
+                            <div class="slidecontainer">
+                              <input type="range" min="1" max="100" value="50">
+                            </div>
+                          </div>
+                        </div>
+              
+                        <div class="col-lg-offset-0 col-lg--12 col-xs-12 col-sm--12">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Business plan development</label>
+                            <div class="slidecontainer">
+                              <input type="range" min="1" max="100" value="50">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-offset-0 col-lg--12 col-xs-12 col-sm--12">
+                          <div class="form-group">
+                            <label for="exampleInputEmail1">Venture Stage</label>
+                            <div class="slidecontainer">
+                              <input type="range" min="1" max="100" value="50">
+                            </div>
+                          </div>
+                        </div>
+              
+                      <!-- <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#exitApplication"> Exit</button>
+               -->
+                      <!-- Exit (Are you sure?) Modal -->
+                      <!-- <div class="modal fade" id="exitApplication" tabindex="-1" role="dialog" aria-labelledby="exitApplication">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel">Before you exit</h4>
+                            </div>
+                            <div class="modal-body">
+                              Do you want to save this application for later?
+                            </div>
+                            <div class="modal-footer">
+                              <a href="vcp.html" role="button" class="btn btn-default btn-large">Don't save</a>
+                              <a href="vcp.html" role="button" class="btn btn-success btn-large">Save</a>
+                            </div>
+                          </div>
+                        </div> -->
+                      <!-- </div> -->
+              
+                      <!-- <div class="pull-right">
+                        <a href="vcp-application-2.html" role="button" class="btn btn-primary btn-large">Next</a>
+                      </div> -->
+          </div></form></div>
+          <div class="col-md-6">
+              <form>
+                  <div class="row div1">
+                      <h4>Comments from Mentor<span class="lead">All fields are mandatory</span></h4>
+                    <br>
+                    <div class="col-lg-12 col-xs-12 col-sm-12">
+                      <div class="form-group">
+                          <label for="exampleInputEmail1">Comments</label>
+                          <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                 
+                 </div>
+                      <h4>Disclosure</h4>
+                      <div class="col-lg-6 col-xs-12 col-sm-6">
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Name of the incubate</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name of the incubate">
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-xs-12 col-sm-6">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Date</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Date">
+                      </div>
+                   </div>
+                      <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="">
+                      By Clicking the box,I affirm that all
+               Information provided me are correct
+               </label>
+                  </div>
+                  
+                </div>
+                <br>
+                <br>
+                <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#exitApplication"> Save<span class="glyphicon glyphicon-save"></span></button>
+               
+                <!-- Exit (Are you sure?) Modal -->
+                <div class="modal fade" id="exitApplication" tabindex="-1" role="dialog" aria-labelledby="exitApplication">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Before you exit</h4>
+                      </div>
+                      <div class="modal-body">
+                        Do you want to save this application for later?
+                      </div>
+                      <div class="modal-footer">
+                        <a href="vcp.html" role="button" class="btn btn-default btn-large">Don't save</a>
+                        <a href="vcp.html" role="button" class="btn btn-success btn-large">Save</a>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /Exit (Are you sure?) Modal -->
+               
+               
+                <div class="pull-right">
+                  <a href="vcp-application-2.html" role="button" class="btn btn-primary btn-large">Submit</a>
+                </div>
+               </form>
+               
+               </div> <!-- /Main Content -->
+               <br />
+               <br />
+               </div>
+               <br />
+               <br />
+               <br />
+               
+               </div>
+                </div>
+                  </div>
+                  </form>
+              </div>
+          </div>
+          </div>
+          <br>
+          
+          </div>
+          
+        </main>
+        </div>
+        </body>
+        
+      </html>
